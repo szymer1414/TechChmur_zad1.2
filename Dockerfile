@@ -3,7 +3,7 @@
 # Obraz bazowy z node na alpine
 FROM node:latest as etapPierwszy
 # Etykieta z imieniem i nazwiskiem
-LABEL author="Mateusz Nowak"
+LABEL author="Szymon Prygiel"
 # Ustawienie katalogu roboczego
 WORKDIR /tch_zad1
 # Przeniesienie pliku packege json
