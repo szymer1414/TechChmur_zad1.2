@@ -34,7 +34,7 @@ EXPOSE 8085
 
 # Healthckeck
 HEALTHCHECK --interval=30s --timeout=10s \
-  CMD curl -f http://localhost:8085/ || exit 1
+  CMD curl -f http://localhost:8084/ || exit 1
 
 # Uruchomienia serwera
 CMD ["node", "server.js"]
