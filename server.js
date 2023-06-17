@@ -1,10 +1,10 @@
 const express = require('express');
 
 const app = express();
-const PORT = 8085; // ustawienie portu
+const PORT = 8084; // ustawienie portu
 
 // dane autora
-const author = 'Mateusz Nowak'; 
+const author = 'Szymon Prygiel'; 
 
 // pobranie daty uruchomienia serwera
 var now = new Date();
